@@ -18,8 +18,8 @@ h1 {
 
 h2 {
     font-size: 12px;
-    text-align: center;
-    border-bottom: 20px solid #bbb;
+    text-align: left;
+    border-bottom: 1px solid #bbb;
 }
 
 header, main, footer {
