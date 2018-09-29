@@ -27,3 +27,18 @@ header, main, footer {
     padding: .5rem;
     max-width: 400px;
 }
+header, footer, footer a {
+    text-align: center;
+    background-color: /* */;
+    color: whitesmoke;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    float: right;
+}
+
+footer {
+    font: size 8;
+}
