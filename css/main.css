@@ -7,17 +7,17 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: /* Ubuntu, sans-serif */;
-    color: /* #xxxxxx */;
+    font-family: Times New Roman;
+    color: blue;
 }
 
 h1 {
     font-size: /* x.xrem  (rem is a unit of measure) */;
-    color: /* #xxxxxx */;
+    color: blue;
 }
 
 h2 {
-    font-size: /* x.xrem */;
+    font-size: 16px;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
