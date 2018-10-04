@@ -8,16 +8,28 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: Times New Roman;
+<<<<<<< HEAD
     color:blue ;
 }
 
 h1 {
     font-size: 16px;
+=======
+    color: blue;
+}
+
+h1 {
+    font-size: /* x.xrem  (rem is a unit of measure) */;
+>>>>>>> fad4396dbfb3389e21b0b5670b4a101461bf8990
     color: blue;
 }
 
 h2 {
+<<<<<<< HEAD
     font-size: 12px;
+=======
+    font-size: 16px;
+>>>>>>> fad4396dbfb3389e21b0b5670b4a101461bf8990
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -25,6 +37,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
+<<<<<<< HEAD
     max-width: 400px;
 }
 header, footer, footer a {
@@ -42,3 +55,7 @@ header img {
 footer {
     font: size 8;
 }
+=======
+    max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+}
+>>>>>>> fad4396dbfb3389e21b0b5670b4a101461bf8990
