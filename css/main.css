@@ -1,41 +1,35 @@
 /* CIT 230 - Assignment Portal CSS Template */
-/* You may use #HEX or color names */
 
-/* * is a wildcard referring to all elements. */
-<<<<<<< HEAD
-* { margin 20px: 0; box-sizing: border-box; } 
-=======
-* { margin: 0; box-sizing: 100px border-box 1px; } 
->>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
+{ margin 20px: 0; box-sizing: border-box; } 
+
+ { margin: 0; box-sizing: 100px border-box 1px; } 
+
 
 body { 
     font-size: 12px; 
     line-height: 32px;
     font-family: Times New Roman;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     color:blue ;
 }
 
 h1 {
     font-size: 16px;
-=======
+
     color: blue;
 }
 
 h1 {
-    font-size: /* x.xrem  (rem is a unit of measure) */;
->>>>>>> fad4396dbfb3389e21b0b5670b4a101461bf8990
+    font-size: 20px;
+
     color: blue;
 }
 
 h2 {
 <<<<<<< HEAD
     font-size: 12px;
-=======
     font-size: 16px;
->>>>>>> fad4396dbfb3389e21b0b5670b4a101461bf8990
-=======
+
     color: blue ;
 }
 
@@ -46,29 +40,27 @@ h1 {
 
 h2 {
     font-size: 12px;
->>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
+
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
 
 header, main, footer {
-<<<<<<< HEAD
+
     margin: 1.25rem auto;
     padding: .5rem;
-<<<<<<< HEAD
-=======
+
     margin: 1.25px auto;
     padding: .5px;
->>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
+
     max-width: 400px;
 }
 header, footer, footer a {
-    text-align: center;
-<<<<<<< HEAD
+
     background-color: /* */;
-=======
+
     background-color: gray;
->>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
+
     color: whitesmoke;
 }
 
