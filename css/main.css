@@ -2,12 +2,12 @@
 /* You may use #HEX or color names */
 
 
-* { margin: 0; box-sizing: border-box; } 
+* { margin: 0; box-sizing: width 200px; height 100px; border-box 5px; } 
 
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: /* Ubuntu, sans-serif */;
+    font-family: 'Times New Roman', Times, serif;
     color: blue;
 }
 
@@ -34,7 +34,7 @@ header, main, footer {
     }
     
     header img {
-        width: 200px;
+        width: 50px;
         height: auto;
         float: right;
     }
