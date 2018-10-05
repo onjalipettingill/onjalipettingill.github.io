@@ -2,7 +2,7 @@
 /* You may use #HEX or color names */
 
 
-* { margin: 0; box-sizing: border-box 5px; } 
+ { margin: 0; box-sizing: 100px; border-box 1px; } 
 
 body { 
     font-size: 16px; 
@@ -33,7 +33,7 @@ header, main, footer {
         color: whitesmoke;
     }
     
-     img {
+    header img {
         width: 50px;
         height: auto;
         float: right;
