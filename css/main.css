@@ -33,7 +33,7 @@ header, main, footer {
         color: whitesmoke;
     }
     
-     img {
+    header img {
         width: 50px;
         height: auto;
         float: right;
