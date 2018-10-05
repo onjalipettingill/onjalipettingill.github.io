@@ -2,7 +2,7 @@
 /* You may use #HEX or color names */
 
 
-* { margin: 0; box-sizing: width 500px; height 100px; border-box 5px; } 
+* { margin: 0; box-sizing: border-box 5px; } 
 
 body { 
     font-size: 16px; 
@@ -25,7 +25,7 @@ h2 {
 header, main, footer {
     margin: 1.25px auto;
     padding: .5px;
-    max-width: 200px;
+    max-width: 500px;
 
     header, footer, footer a {
         text-align: center;
