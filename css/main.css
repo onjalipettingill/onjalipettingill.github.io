@@ -2,12 +2,17 @@
 /* You may use #HEX or color names */
 
 /* * is a wildcard referring to all elements. */
+<<<<<<< HEAD
 * { margin 20px: 0; box-sizing: border-box; } 
+=======
+* { margin: 0; box-sizing: 100px border-box 1px; } 
+>>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
 
 body { 
-    font-size: 16px; 
+    font-size: 12px; 
     line-height: 32px;
     font-family: Times New Roman;
+<<<<<<< HEAD
 <<<<<<< HEAD
     color:blue ;
 }
@@ -30,32 +35,61 @@ h2 {
 =======
     font-size: 16px;
 >>>>>>> fad4396dbfb3389e21b0b5670b4a101461bf8990
+=======
+    color: blue ;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    font-size: 12px;
+>>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
 
 header, main, footer {
+<<<<<<< HEAD
     margin: 1.25rem auto;
     padding: .5rem;
 <<<<<<< HEAD
+=======
+    margin: 1.25px auto;
+    padding: .5px;
+>>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
     max-width: 400px;
 }
 header, footer, footer a {
     text-align: center;
+<<<<<<< HEAD
     background-color: /* */;
+=======
+    background-color: gray;
+>>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
     color: whitesmoke;
 }
 
 header img {
+<<<<<<< HEAD
     width: 80px;
+=======
+    width: 100px;
+>>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
     height: auto;
     float: right;
 }
 
 footer {
+<<<<<<< HEAD
     font: size 8;
 }
 =======
     max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+=======
+    font-size: 8px;
+>>>>>>> 82d6a781ab93a2ce0cee14010e802ac885366be0
 }
 >>>>>>> fad4396dbfb3389e21b0b5670b4a101461bf8990
