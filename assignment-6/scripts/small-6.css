@@ -94,9 +94,10 @@ h2 {
 }
 
 .weathersummary {
-    position: absolute;
-    top: 500px;
-    margin: 2rem 0 2rem 3rem;
+    position: relative;
+    width: 10%;
+    margin-top: -700px;
+    margin-left: 20px;
     padding: 1.2rem;
     color: black;
     background-color: rgb(195, 245, 236);
@@ -112,7 +113,9 @@ h2 {
     padding: 1.2rem;
     vertical-align: middle;
     text-align: center;
+    margin-top: 300px;
 }
+
 .table{
     padding-left: 48rem;
 }

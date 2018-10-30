@@ -26,6 +26,7 @@
         background-color: #dddddd; 
     } 
 
-    #mainMenu { display: block;
+    #mainMenu {
+        display: block;
     }
 } 
