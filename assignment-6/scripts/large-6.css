@@ -25,4 +25,7 @@
         padding: 8px;
         background-color: #dddddd; 
     } 
+
+    nav { display: initial;
+    }
 } 
