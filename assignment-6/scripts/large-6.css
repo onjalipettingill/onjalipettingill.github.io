@@ -26,6 +26,6 @@
         background-color: #dddddd; 
     } 
 
-    nav { display: initial;
+    #mainMenu { display: block;
     }
 } 
