@@ -94,8 +94,8 @@ h2 {
 }
 
 .weathersummary {
-    position: relative;
-    width: 10%;
+    float: left;
+    width: 6rem;
     padding: 1.2rem;
     color: black;
     background-color: rgb(195, 245, 236);
