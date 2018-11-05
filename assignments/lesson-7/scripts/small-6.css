@@ -148,13 +148,17 @@ h5{
 
 .contact{
     background-color: rgb(241, 236, 203);
-    display: flex;
-    margin: 20px;
+    margin: 10px;
     font-size: 1.5rem;
 }
 
 .preston-map{
-    margin: 10px;
+    float: left
+    
+}
+
+.clearfix{
+    overflow:auto;
 }
 
 h6{
