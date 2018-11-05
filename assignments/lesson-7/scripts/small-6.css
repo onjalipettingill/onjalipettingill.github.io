@@ -89,7 +89,7 @@ h2 {
 
 .topbox{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     margin-left: 100px;
     width: 100%;
 }
