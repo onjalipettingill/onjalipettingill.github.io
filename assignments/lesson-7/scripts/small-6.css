@@ -88,20 +88,20 @@ h2 {
 }
 
 .topbox{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 100px;
     width: 100%;
 }
 
 .image {
-    display: block;
-    width: 90%;
+    width: 100%;
     height: auto;
     padding: 2rem; 
 }
 
 .weathersummary {
-    float: left;
+    
     width: 6rem;
     padding: 1.2rem;
     color: black;
@@ -144,6 +144,21 @@ h5{
     height: auto;
     padding: 1rem;
     float: right;
+}
+
+.contact{
+    background-color: rgb(241, 236, 203);
+    display: flex;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.preston-map{
+    margin: 10px;
+}
+
+h6{
+    font-size: 3rem;
 }
 
 .footer {
