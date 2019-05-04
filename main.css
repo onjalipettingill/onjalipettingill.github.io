@@ -7,8 +7,8 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: /* Ubuntu, sans-serif */;
-    color: blueviolet;
+    font-family: Ubuntu, sans-serif;
+    color: rgb(48, 121, 58);
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -35,7 +35,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: 100px;
+    width: 300px;
     height: auto;
     float: right;
 }
