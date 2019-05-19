@@ -32,7 +32,7 @@ header > img {
 
 .motto {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
+    font-size: 5rem;
     color: rgb(31, 31, 73);
      
 }
@@ -57,7 +57,7 @@ ul {
     text-align: center; 
 }
 li {
-    float: left;
+    display: inline-block;
 }
 li a {
     display: block;
