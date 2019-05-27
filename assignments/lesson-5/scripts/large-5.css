@@ -52,9 +52,9 @@ ul {
   }
   
   li a {
-    display: block;
+    display: inline-block;
     color: #333;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
   }
