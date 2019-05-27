@@ -65,6 +65,16 @@ nav {
     background-color: #111;
   }
 
+  .weathersummary {
+
+    position: absolute;
+	top: 25px;
+	right: 50px;
+	background-color: wheat;
+	border: 1px solid #000;
+	padding: 1.5rem;
+} 
+
   .currentcondition {
     display: inline-block;
     margin: 2rem 0 2rem 5rem;
