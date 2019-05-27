@@ -34,7 +34,7 @@ header > img {
     color: rgb(31, 31, 73);    
 }
 
-nav {	margin: 0 auto;	}
+nav {	margin: 0 auto; background-color: white;	}
 
 .navigation { list-style: none; text-align: center; }
   .navigation li:first-child { display: block;}
