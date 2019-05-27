@@ -48,11 +48,11 @@ ul {
     overflow: hidden;
     background-color: #333;
     text-align: center;
-    display: inline-block;
+    display: inline;
   }
   
   li a {
-    display: inline-block;
+    display: inline;
     color: white;
     text-align: center;
     padding: 14px 16px;
