@@ -56,14 +56,7 @@ ul {
     background-color: #dddddd;
     text-align: center; 
 }
-li {
-    display: inline-block;
-}
-li a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd; 
-}
+
 
 h2 {
     text-align: center;

@@ -34,6 +34,14 @@ header > img {
     color: rgb(31, 31, 73);    
 }
 
+nav {	margin: 0 auto;	max-width: 760px; background-color: black;	}
+
+.navigation { list-style: none; text-align: center; }
+  .navigation li:first-child { display: block;}
+  .navigation li { display: none;}
+  .navigation a {	display: block;	color: blue; padding: .75rem;	text-align: center;	text-decoration: none;}
+  .navigation a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
+
 .currentcondition {
     display: inline-block;
     margin: 2rem 0 2rem 5rem;
