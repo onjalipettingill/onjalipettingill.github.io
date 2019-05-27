@@ -65,6 +65,12 @@ nav {
     background-color: #111;
   }
 
+  .topbox {
+    margin: 10px auto;
+    position: relative;
+
+  }
+
   .weathersummary {
 
     position: absolute;
