@@ -47,7 +47,8 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: white;
-    text-align: left;
+    text-align: center;
+    display: inline
 
   }
   
