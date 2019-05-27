@@ -65,6 +65,12 @@ nav {
     background-color: #111;
   }
 
+  .barnimage{
+    width: 100%;
+    height: auto;
+
+  }
+
   .topbox {
     margin: 10px auto;
     position: relative;
@@ -78,8 +84,8 @@ nav {
 	left: 20px;
 	background-color: wheat;
 	border: 1px solid #000;
-    padding: .5rem;
-    font-size: .5rem;
+    padding: .7rem;
+    font-size: .7rem;
 } 
 
   .currentcondition {
