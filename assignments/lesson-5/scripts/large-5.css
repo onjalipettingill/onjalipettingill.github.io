@@ -31,18 +31,6 @@ nav {
     background-color: #111;
   }
 
-  .barnimage{
-    width: 100%;
-    height: auto;
-
-  }
-
-  .topbox {
-    margin: 10px auto;
-    position: relative;
-
-  }
-
   .weathersummary {
 
     position: absolute;
