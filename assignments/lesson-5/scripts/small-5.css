@@ -71,16 +71,7 @@ nav {
     font-size: .5rem;
 } 
 
-
-
-.currentcondition {
-    display: inline-block;
-    margin: 2rem 0 2rem 5rem;
-    padding: 1.2rem;
-    vertical-align: middle;
-    color: black;
-    background-color: rgb(195, 245, 236);
-    border: 1pt solid rgb(110, 109, 109);
-    font-size: 1.1rem;
+.forcast {
+    display: none;
 }
 
