@@ -71,5 +71,7 @@ nav {
     font-size: .5rem;
 } 
 
-
+.forecast{
+    display: none;
+}
 
