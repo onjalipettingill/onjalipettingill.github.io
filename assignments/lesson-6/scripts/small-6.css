@@ -81,17 +81,18 @@ h2 {
 }
 
 .topbox {
-        position: relative;
+        
         margin-left: auto;
         margin-right: auto;
+        position: relative;
     
       }
 
 .image {
     display: block;
-    width: 100%;
+    width: 90%;
     height: auto;
-    padding: 5rem; 
+    padding: 2rem; 
 }
 
 .weathersummary {
@@ -105,18 +106,7 @@ h2 {
     font-size: .5rem;
 } 
 
-.forecast {
-    display: block;
-    background-color: bisque;
-    padding: 1.2rem;
-    vertical-align: middle;
-    text-align: center;
-    margin-top: 300px;
-}
 
-.table{
-    padding-left: 48rem;
-}
 .middle {
 
     background-color: rgb(203, 206, 205);
