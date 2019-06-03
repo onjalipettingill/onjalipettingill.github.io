@@ -80,11 +80,11 @@ h2 {
     text-align: center;
 }
 
-.topbox{
-    display: block;
-    margin-left: 100px;
-    width: 100%;
-}
+.topbox {
+        margin: 10px auto;
+        position: relative;
+    
+      }
 
 .image {
     display: block;
@@ -95,7 +95,7 @@ h2 {
 
 .weathersummary {
 
-    position: relative;
+    position: absolute;
 	top: 10px;
 	left: 20px;
 	background-color: wheat;
