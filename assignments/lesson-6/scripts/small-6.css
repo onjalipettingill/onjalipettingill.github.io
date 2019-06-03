@@ -81,7 +81,7 @@ h2 {
 }
 
 .topbox {
-        margin: 10px auto;
+        margin: auto;
         position: relative;
     
       }
@@ -95,7 +95,7 @@ h2 {
 
 .weathersummary {
 
-    position: relative;
+    position: absolute;
 	top: 10px;
 	left: 20px;
 	background-color: wheat;
