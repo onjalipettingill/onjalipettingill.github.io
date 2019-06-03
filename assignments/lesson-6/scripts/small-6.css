@@ -83,7 +83,7 @@ h2 {
 .topbox {
         margin: auto;
         position: relative;
-    
+        width: 100%;
       }
 
 .image {
