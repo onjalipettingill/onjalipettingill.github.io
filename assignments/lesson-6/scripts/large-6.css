@@ -34,8 +34,8 @@
   .weathersummary {
 
     position: absolute;
-	top: 10px;
-	left: 20px;
+	top: 5rem;
+	left: 5rem;
 	background-color: wheat;
 	border: 1px solid #000;
     padding: 1rem;
