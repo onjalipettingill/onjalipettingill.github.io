@@ -15,15 +15,14 @@ header {
 }
 
 header > img {
-    width: 150px;
-    height: 150px;
+    width: 20%;
+    height: auto;
     vertical-align: middle;
     margin: 2rem 3rem 2rem 5rem;  
 }
 
 .headertext {
     vertical-align: middle;
-    display: inline-block;
 }
 
 .headertext h1 {
