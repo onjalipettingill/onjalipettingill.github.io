@@ -6,9 +6,9 @@ body {
 
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    background-color:rgb(223, 238, 142);
+    background-color:rgb(175, 167, 167);
     text-align: center;
     padding:1rem;
     color: black;
@@ -27,14 +27,14 @@ header > img {
 .headertext h1 {
     font-size: 4rem;
     font-family:'nunito';
-    color: rgb(52, 54, 52);
+    color: rgb(65, 62, 122);
     
 }
 
 .subheading {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
-    color: rgb(12, 12, 12);
+    color: white;
     margin-top: -1rem; 
 }
 
