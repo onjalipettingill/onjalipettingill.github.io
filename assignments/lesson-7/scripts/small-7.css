@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    display: flex-inline;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -48,7 +48,7 @@ nav button {
     background-color: trasparent;
     border: none;
     font-size: 1.6rem;
-    color: #555;
+    color: rgb(110, 109, 109)
 }
 
 nav {
@@ -56,7 +56,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: stretch;
-    background-color: #dddd;
+    background-color: rgb(122, 204, 200);
     font-family: 'Arvo';
 }
 nav ul {
