@@ -8,6 +8,7 @@ header {
     display: flex-inline;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     background-color:rgb(175, 167, 167);
     padding:2rem;
 }
