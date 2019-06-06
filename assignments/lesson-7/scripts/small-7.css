@@ -5,10 +5,9 @@ body {
 }
 
 header {
-    display: flex;
+    display: flex-inline;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color:rgb(175, 167, 167);
     padding:2rem;
 }
@@ -29,8 +28,7 @@ h1 {
 .subheading {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
-    color: white;
-    margin-top: -1rem; 
+    color: white; 
 }
 
 .currentcondition {
