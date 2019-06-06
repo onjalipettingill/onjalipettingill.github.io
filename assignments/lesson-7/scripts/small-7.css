@@ -7,14 +7,13 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-content: center;
     background-color:rgb(175, 167, 167);
     padding:2rem;
 }
 
 header > img {
-    width: 8%;
+    width: 7%;
     height: 6%;
    
 }
@@ -28,7 +27,7 @@ h1 {
 
 .subheader {
     font-family: 'Arvo';
-    font-size: 1rem;
+    font-size: 2rem;
     color: white; 
 }
 
@@ -48,7 +47,7 @@ nav button {
     background-color: trasparent;
     border: none;
     font-size: 1.6rem;
-    color: rgb(110, 109, 109)
+    color: rgb(122, 204, 200);
 }
 
 nav {
@@ -58,6 +57,7 @@ nav {
     align-items: stretch;
     background-color: rgb(122, 204, 200);
     font-family: 'Arvo';
+    
 }
 nav ul {
     list-style-type: none;
