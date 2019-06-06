@@ -9,8 +9,7 @@ header {
     flex-direction: column;
     justify-content: center;
     background-color:rgb(175, 167, 167);
-    text-align: center;
-    padding:1rem;
+    padding:2rem;
     color: black;
 }
 
@@ -20,13 +19,9 @@ header > img {
    
 }
 
-.headertext {
-   
-}
-
-.headertext h1 {
-    font-size: 4rem;
-    font-family:'nunito';
+h1 {
+    font-size: 3rem;
+    font-family:'Fjalla+One&display=swap';
     color: rgb(65, 62, 122);
     
 }
