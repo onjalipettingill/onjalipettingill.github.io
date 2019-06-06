@@ -7,14 +7,14 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
     background-color:rgb(175, 167, 167);
     padding:2rem;
 }
 
 header > img {
     width: 8%;
-    height: auto;
+    height: 8%;
    
 }
 
