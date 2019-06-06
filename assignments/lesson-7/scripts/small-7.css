@@ -5,12 +5,12 @@ body {
 }
 
 header {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color:rgb(175, 167, 167);
     padding:2rem;
-    color: black;
 }
 
 header > img {
@@ -21,7 +21,7 @@ header > img {
 
 h1 {
     font-size: 3rem;
-    font-family:'Fjalla+One&display=swap';
+    font-family: 'Fjalla One', sans-serif;
     color: rgb(65, 62, 122);
     
 }
