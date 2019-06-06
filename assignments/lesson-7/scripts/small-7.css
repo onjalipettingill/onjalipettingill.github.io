@@ -8,9 +8,9 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color:rgb(184, 197, 107);
+    background-color:rgb(223, 238, 142);
     text-align: center;
-    padding:.5rem;
+    padding:1rem;
     color: black;
 }
 
@@ -28,14 +28,14 @@ header > img {
     font-size: 4rem;
     font-family:'nunito';
     color: rgb(52, 54, 52);
-    margin-top: -1rem;
+    
 }
 
 .subheading {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
     color: rgb(12, 12, 12);
-     
+    margin-top: -1rem; 
 }
 
 .currentcondition {
