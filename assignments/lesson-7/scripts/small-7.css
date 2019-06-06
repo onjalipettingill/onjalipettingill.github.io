@@ -16,13 +16,12 @@ header {
 
 header > img {
     width: 20%;
-    height: auto;
-    vertical-align: middle;
-    margin: 2rem 3rem 2rem 5rem;  
+    height: 20%;
+   
 }
 
 .headertext {
-    vertical-align: middle;
+   
 }
 
 .headertext h1 {
