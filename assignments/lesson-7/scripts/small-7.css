@@ -25,6 +25,7 @@ h1 {
     font-size: 3em;
     font-family: 'Fjalla One', sans-serif;
     color: rgb(65, 62, 122);
+    letter-spacing: 3px;
     
 }
 
@@ -32,6 +33,7 @@ h1 {
     font-family: 'Arvo';
     font-size: 2rem;
     color: white; 
+    text-align: center;
 }
 
 .currentcondition {
