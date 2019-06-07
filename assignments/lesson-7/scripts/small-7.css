@@ -9,8 +9,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 900px;
+    width: 900px;
+    height: 400px;
     background-color:rgb(175, 167, 167);
     padding:2rem;
 }
