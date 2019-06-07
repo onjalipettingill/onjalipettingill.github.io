@@ -31,10 +31,11 @@ h1 {
 
 .subheader {
     font-family: 'Arvo';
-    font-size: 2rem;
+    font-size: 1em;
     color: white; 
     text-align: center;
-    margin-top: -5px;
+    margin-top: -20px;
+    letter-spacing: 3px;
 }
 
 .currentcondition {
