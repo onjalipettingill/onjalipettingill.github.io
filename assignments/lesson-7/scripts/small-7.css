@@ -8,6 +8,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 900px;
     background-color:rgb(175, 167, 167);
     padding:2rem;
 }
