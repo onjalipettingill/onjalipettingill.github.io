@@ -102,16 +102,17 @@ h2 {
 }
 
 .weathersummary {
-    
-    width: 6rem;
-    padding: 1.2rem;
-    color: black;
-    background-color: rgb(195, 245, 236);
-    border: 1pt solid rgb(110, 109, 109);
-    font-size: 1rem;
-    line-height: 1;
 
-}
+    position: absolute;
+	top: 2rem;
+    left: 2rem;
+    width: 15%;
+    height: auto;
+	background-color: wheat;
+	border: 1px solid #000;
+    padding: .5rem;
+    font-size: .5rem;
+} 
 
 .forecast {
     display:inline-block;
@@ -121,6 +122,11 @@ h2 {
     margin-top: 20px;
     width: 100%;
 }
+
+.forecast {
+    display: none;
+}
+
 .table {
 }
 .middle {
