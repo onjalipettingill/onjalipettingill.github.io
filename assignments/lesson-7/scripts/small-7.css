@@ -103,10 +103,10 @@ h2 {
 
 .weathersummary {
 
-    position: absolute;
+    /*position: absolute;
 	top: 2rem;
     left: 2rem;
-    width: 15%;
+    width: 15%;*/vvv
     height: auto;
 	background-color: wheat;
 	border: 1px solid #000;
