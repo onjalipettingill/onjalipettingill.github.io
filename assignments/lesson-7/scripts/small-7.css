@@ -112,10 +112,10 @@ h2 {
     width: 15%;
     height: auto;
 	background-color:rgb(175, 167, 167);
-	border: 10px solid white;
+	border: 5px solid white;
     padding: .4rem;
     font-size: .4rem;
-    color: white;
+    color:  rgb(65, 62, 122);
 } 
 
 .middle {
