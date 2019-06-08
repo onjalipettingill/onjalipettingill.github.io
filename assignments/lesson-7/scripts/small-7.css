@@ -112,27 +112,12 @@ h2 {
     width: 15%;
     height: auto;
 	background-color:rgb(175, 167, 167);
-	border: 1px solid white;
+	border: 10px solid white;
     padding: .4rem;
     font-size: .4rem;
     color: white;
 } 
 
-.forecast {
-    display:inline-block;
-    background-color: bisque;
-    vertical-align: middle;
-    text-align: center;
-    margin-top: 20px;
-    width: 100%;
-}
-
-.forecast {
-    display: none;
-}
-
-.table {
-}
 .middle {
 
     background-color: rgb(203, 206, 205);
