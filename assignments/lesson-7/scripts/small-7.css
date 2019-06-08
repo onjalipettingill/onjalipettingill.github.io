@@ -111,10 +111,11 @@ h2 {
     left: 2rem;
     width: 15%;
     height: auto;
-	background-color: wheat;
-	border: 1px solid #000;
+	background-color:rgb(175, 167, 167);
+	border: 1px solid black;
     padding: .5rem;
     font-size: .5rem;
+    text-decoration-color: white;
 } 
 
 .forecast {
