@@ -200,10 +200,16 @@ figure {
 
 /*------- storm center -------- */
 
-label.top {
+ form label.top {
 
     margin: 3rem;
     color: rgb(65, 62, 122);
+    padding-top: 3rem;
+}
+
+form label.top input{
+    font-size: 1rem;
+    padding: 1rem;
 }
 
     
