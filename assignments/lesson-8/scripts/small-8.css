@@ -229,7 +229,7 @@ form label.top input {
   }
 
   form label.bottom {
-      display: inline;
+      display: block;
       margin-right: 4rem;
       margin-top: 4rem;
       margin-bottom: 20px;
