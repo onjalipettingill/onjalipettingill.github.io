@@ -215,6 +215,7 @@ figure {
 }
 
 form label.top input {
+    display: block;
     font-size: 1rem;
     padding: .75rem;
     width: 50%;
