@@ -210,14 +210,13 @@ figure {
  form label.top {
     display: block;
     color: rgb(65, 62, 122);
-    padding-left: 3rem;
 }
 
 form label.top input {
     display: block;
     font-size: 1rem;
     padding: .75rem;
-    width: 70%;
+    width: 100%;
     margin: 0rem 1rem 1rem 1rem;
 }
 
@@ -225,7 +224,7 @@ form label.top input {
     margin: 2rem 8rem;
     border-radius: 10px;
     background-color: #f2f2f2;
-    padding: 40px;
+    padding: 50px;
   }
 
     
