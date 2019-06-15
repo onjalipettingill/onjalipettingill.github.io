@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 table {
@@ -10,12 +10,12 @@ table {
 }
 
 td, th {
-  border: 1px solid rgb(190,190,190);
+  border: 1px black ;
   padding: 10px 20px;
 }
 
 th {
-  background-color: rgb(235,235,235);
+  background-color:#e7f0ed;
 }
 
 td {
@@ -33,15 +33,3 @@ tr:nth-child(odd) td {
 caption {
   padding: 10px;
 }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
