@@ -16,7 +16,8 @@ td, th {
 
 th {
   background-color:#628ca6;
-  font-size: 2em;
+  font-size: 1rem;
+  color:white;
 }
 .head {
     background-color:#7fb9c2;
