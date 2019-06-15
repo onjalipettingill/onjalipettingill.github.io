@@ -207,9 +207,15 @@ figure {
     padding-top: 3rem;
 }
 
-form label.top input{
+form label.top input {
     font-size: 1rem;
     padding: 1rem;
 }
+
+.stormform  {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
     
