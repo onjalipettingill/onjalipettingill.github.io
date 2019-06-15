@@ -221,7 +221,7 @@ form label.top input {
     max-width: 80%;
 }
 
-.stormform  {
+.stormform {
     margin: 2rem 8rem;
     border-radius: 10px;
     background-color: #f2f2f2;
@@ -230,7 +230,7 @@ form label.top input {
 
   form label.bottom {
       display: inline;
-      margin: 2rem;
+      margin: 1rem 2rem;
       color: rgb(65, 62, 122);
       padding-top: 1rem;
   }
