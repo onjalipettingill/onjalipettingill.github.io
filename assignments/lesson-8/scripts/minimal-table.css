@@ -15,7 +15,12 @@ td, th {
 }
 
 th {
-  background-color:#7fb9c2;
+  background-color:#628ca6;
+  font-size: 2em;
+}
+th .head {
+    background-color:#7fb9c2;
+    font-size: 2rem;
 }
 
 td {
