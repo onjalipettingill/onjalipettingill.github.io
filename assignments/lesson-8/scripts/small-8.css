@@ -209,9 +209,8 @@ figure {
 
  form label.top {
     display: block;
-    margin-top: 0rem;
     color: rgb(65, 62, 122);
-    padding-left: 3rem;
+    margin-left: 3rem;
 }
 
 form label.top input {
