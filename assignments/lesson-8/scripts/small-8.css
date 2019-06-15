@@ -230,9 +230,9 @@ form label.top input {
 
   form label.bottom {
       display: inline;
-      margin: 3rem;
+      margin: 4rem;
       color: rgb(65, 62, 122);
-      padding-top: 1rem;
+      padding: 2rem;
   }
 
   form input.submitBtn {
@@ -242,6 +242,7 @@ form label.top input {
       border: none;
       margin: 1rem;
       padding: .75rem 1.5rem;
+      font-family: 'Arvo';
   }
 
     
