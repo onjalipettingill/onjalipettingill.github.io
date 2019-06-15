@@ -211,6 +211,7 @@ figure {
     display: block;
     color: rgb(65, 62, 122);
     margin: .5rem 1rem;
+    width: 100%;
 }
 
 form label.top input {
