@@ -232,7 +232,12 @@ form label.top input {
       display: inline;
       margin: 2rem;
       color: rgb(65, 62, 122);
-      padding: 1rem;
+      padding-top: 1rem;
+  }
+
+  form label.submitBtn {
+      width: 80%;
+      color: rgb(122, 204, 200);
   }
 
     
