@@ -6,37 +6,38 @@ body {
 
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    background-color:rgb(241, 236, 203);
-    text-align: center;
-    padding:.5rem;
-    color: black;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color:rgb(175, 167, 167);
+    padding:2rem;
 }
 
 header > img {
-    width: 150px;
-    height: 150px;
-    vertical-align: middle;
-    margin: 2rem 3rem 2rem 5rem;  
+    width: 80px;
+    height: 80px;
+    margin-bottom: -20px;
+
+   
 }
 
-.headertext {
-    vertical-align: middle;
-    display: inline-block;
+h1 {
+    font-size: 3.5em;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(65, 62, 122);
+    letter-spacing: 3px;
+    
 }
 
-.headertext h1 {
-    font-size: 4rem;
-    font-family:'nunito';
-    color: rgb(64, 83, 64);
-}
-
-.subheading {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
-    color: rgb(12, 12, 12);
-     
+.subheader {
+    font-family: 'Arvo';
+    font-size: 1.5em;
+    color: white; 
+    text-align: center;
+    margin-top: -40px;
+    letter-spacing: 3px;
 }
 
 .currentcondition {
@@ -55,7 +56,7 @@ nav button {
     background-color: trasparent;
     border: none;
     font-size: 1.6rem;
-    color: #555;
+    color: rgb(122, 204, 200);
 }
 
 nav {
@@ -63,7 +64,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: stretch;
-    background-color: #dddd;
+    background-color: rgb(122, 204, 200);
     font-family: 'Arvo';
 }
 nav ul {
@@ -76,7 +77,7 @@ nav ul li a{
     display: block;
     padding: .8rem;
     text-decoration: none;
-    color: #000;
+    color: white;
     border-top: 1px solid rgba(0 0 0 .3);
 }
 
@@ -87,54 +88,52 @@ h2 {
     text-align: center;
 }
 
-.topbox{
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 100px;
-    width: 100%;
-}
+.topbox {
+        
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 
-.image {
+  }
+
+  .skyimage {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     width: 100%;
-    height: auto;
-    padding: 2rem; 
+    height: auto; 
 }
 
 .weathersummary {
-    
-    width: 6rem;
-    padding: 1.2rem;
-    color: black;
-    background-color: rgb(195, 245, 236);
-    border: 1pt solid rgb(110, 109, 109);
-    font-size: 1rem;
-    line-height: 1;
 
-}
+    position: absolute;
+	top: 2rem;
+    left: 2rem;
+    width: 15%;
+    height: auto;
+	background-color:rgb(175, 167, 167);
+	border: 5px solid white;
+    padding: .4rem;
+    font-size: .4rem;
+    color:  rgb(65, 62, 122);
+} 
 
-.forecast {
-    display:inline-block;
-    background-color: bisque;
-    vertical-align: middle;
-    text-align: center;
-    margin-top: 20px;
-    width: 100%;
-}
-.table {
-}
 .middle {
 
     background-color: rgb(203, 206, 205);
     padding-left: 10px;
     padding-bottom: 10px;
+    margin-top: -30px;
 }
 .windyparagraph {
     font-size: 1.5rem;
     line-height: 1.9;
     padding-top: 10px;
+    margin-top: -10px;
 }
 h5{
     font-size: 3rem;
+    margin-bottom: -10px;
 }
 
  .middle .preston-img {
@@ -164,7 +163,7 @@ h6{
 }
 
 .footer {
-    background-color: rgb(87, 153, 141);
+    background-color: rgb(122, 204, 200);
     text-align: center;
     font-size: 1.5rem;
 }
@@ -202,47 +201,11 @@ figure {
 /* storm center */
 
 form fieldset {
-    margin: 2rem 1rem;
-    border: 2px solid rgb(87, 153, 141);
+    margin: 3rem 0;
+    border: 2px solid #5555;
     border-radius: 10px;
     padding: 1rem;
+
 }
-
-form legend{
-    font-size: 2rem;
-}
-
-form label.top, form div{
-    display: block;
-    padding-top: 2rem 2%;
-    color: black;
-    font-size: 1rem;
-}
-
-form label.top input, form label.top select{
-    display: block;
-    font-size: 1rem;
-    border: solid 1px #999;
-    border-radius: 4px;
-    padding: .5rem;
-    margin-bottom: 1rem;
-}
-
-form label.sbs {
-    display: inline-block;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    }
-
-.submitBtn{
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    padding: 1rem;
-    background-color:rgb(87, 153, 141);
-    font-size: 1rem;
-    border-radius: 4px;
-    color: white;
-    font-family: Arvo;
-}    
 
     
