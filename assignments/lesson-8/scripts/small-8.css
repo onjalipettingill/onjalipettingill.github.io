@@ -230,7 +230,8 @@ form label.top input {
 
   form label.bottom {
       display: inline;
-      margin: 2rem 4rem;
+      margin-right: 3.5rem;
+      margin-top: 4rem;
       color: rgb(65, 62, 122);
   }
 
