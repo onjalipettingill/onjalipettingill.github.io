@@ -10,7 +10,7 @@ table {
 }
 
 td, th {
-  border: 1px black ;
+  border: 1px rgb(200,200,200) ;
   padding: 10px 20px;
 }
 
@@ -23,11 +23,11 @@ td {
 }
 
 tr:nth-child(even) td {
-  background-color:#628ca6;
+  background-color: #e7f0ed;
 }
 
 tr:nth-child(odd) td {
-  background-color: rgb(245,245,245);
+  background-color:#e7ffed;
 }
 
 caption {
