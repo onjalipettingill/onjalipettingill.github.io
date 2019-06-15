@@ -201,9 +201,10 @@ figure {
 /*------- storm center -------- */
 
 .stormheader {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     color:  rgb(65, 62, 122);
+    margin-top: 2rem;
 }
 
  form label.top {
