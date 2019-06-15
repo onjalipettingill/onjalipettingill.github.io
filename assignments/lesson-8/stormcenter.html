@@ -71,7 +71,7 @@
         <label class="top">storm date
         <input type="date" name="date"></label>
         <br>
-        storm type:<br>
+        <label class="bottom">storm type:<br>
         <input list="stormtype">
             <datalist id="stormtype">
                 <option value="flash flood">
@@ -79,29 +79,30 @@
                 <option value="hurricane">
                 <option value="thunder storm">
                 <option value="tornado">
-            </datalist> 
-        <br>
-        storm severity:<br>
+            </datalist></label>
+        
+    <label class="bottom">storm severity:<br>
         <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-        <span id="ratingvalue">5</span><br>
+        <span id="ratingvalue">5</span>
+    </label>
 
-        strom region:<br>
+    <label class="bottom"></label>strom region:<br>
         <select>
                 <option value="">select region</option>
                 <option value="preston">Preston</option>
                 <option value="fish haven">Fish Haven</option>
                 <option value="sugar city">Sugar City</option>
         </select>
-        <br>
+    <label class="bottom">
         user in-danger level:<br>
         <label><input type="radio" name="danger" value="yes">yes<br></label>
         <label><input type="radio" name="danger" value="maybe">maybe<br></label>
         <label><input type="radio" name="danger" value="no">no<br></label>
-        <br>
-        additional information or comments:<br>
+    </label>
+     <label class="top">additional information or comments:<br>
         <textarea rows="4" cols="50">
         </textarea>
-        <br>
+    </label>
 
 
         <input type="submit" value="Submit">

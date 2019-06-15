@@ -218,6 +218,7 @@ form label.top input {
     font-size: 1rem;
     padding: .75rem;
     width: 100%;
+    max-width: 80%;
 }
 
 .stormform  {
@@ -225,6 +226,11 @@ form label.top input {
     border-radius: 10px;
     background-color: #f2f2f2;
     padding: 50px;
+  }
+
+  form label.bottom {
+      display: inline;
+      margin-top: 1rem;
   }
 
     
