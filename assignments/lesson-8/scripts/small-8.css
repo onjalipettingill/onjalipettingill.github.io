@@ -202,18 +202,20 @@ figure {
 
  form label.top {
 
-    margin: 3rem;
+    margin: 2rem;
     color: rgb(65, 62, 122);
     padding-top: 3rem;
 }
 
 form label.top input {
     font-size: 1rem;
-    padding: 1rem;
+    padding: .75rem;
+    width: 90%;
 }
 
 .stormform  {
-    border-radius: 5px;
+    margin: 2rem;
+    border-radius: 10px;
     background-color: #f2f2f2;
     padding: 20px;
   }
