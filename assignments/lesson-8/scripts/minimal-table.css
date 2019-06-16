@@ -3,7 +3,7 @@ html {
 }
 
 table {
-  
+  border-collapse: none;
   border: 1px solid rgb(128, 125, 125);
   letter-spacing: 1px;
   font-size: 0.8rem;
@@ -19,7 +19,7 @@ th {
   font-size: 1rem;
   color:white;
 }
-.head {
+thead {
     background-color:#7fb9c2;
     color:black;
     font-size: 2rem;
@@ -27,6 +27,7 @@ th {
 
 td {
   text-align: center;
+  border: gray;
 }
 
 tr:nth-child(even) td {
