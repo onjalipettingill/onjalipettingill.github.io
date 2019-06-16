@@ -37,12 +37,12 @@ tr:nth-child(odd) td {
   background-color:#e7ffed;
 }
 
-.highlight{
+td.highlight{
     background-color:#628ca6;
     color: white;
 }
 
-.footer{
+td.footer{
     background-color: #7fb9c2;
 }
 
