@@ -3,11 +3,13 @@ html {
 }
 
 table {
-  border-collapse: none;
+  border-collapse: collapse;
   border: 1px solid rgb(128, 125, 125);
   letter-spacing: 1px;
   font-size: 0.8rem;
   font-family: Ubuntu, sans-serif;
+  width: 300px;
+  margin: 30px auto;
 }
 
 td {
@@ -21,6 +23,7 @@ thead th {
     background-color:#7fb9c2;
     color:black;
     font-size: 2rem;
+    border-collapse: collapse;
 }
 
 th {
