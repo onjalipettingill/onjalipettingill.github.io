@@ -44,7 +44,7 @@ tr:nth-child(odd) td {
     color: white;
 }
 
-tfoot {
+tfoot tr td {
     background-color: #7fb9c2;
 }
 
