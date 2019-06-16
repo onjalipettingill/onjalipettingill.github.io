@@ -14,16 +14,17 @@ td, th {
   padding: 10px 20px;
 }
 
-th {
-  background-color:#628ca6;
-  font-size: 1rem;
-  color:white;
-}
 thead {
     background-color:#7fb9c2;
     color:black;
     font-size: 2rem;
 }
+
+th {
+    background-color:#628ca6;
+    font-size: 1rem;
+    color:white;
+  }
 
 td {
   text-align: center;
