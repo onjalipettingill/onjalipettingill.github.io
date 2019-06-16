@@ -22,6 +22,7 @@ th {
 }
 .head {
     background-color:#7fb9c2;
+    color:black;
     font-size: 2rem;
 }
 
@@ -35,6 +36,10 @@ tr:nth-child(even) td {
 
 tr:nth-child(odd) td {
   background-color:#e7ffed;
+}
+
+.footer{
+    background-color: #7fb9c2;
 }
 
 caption {
