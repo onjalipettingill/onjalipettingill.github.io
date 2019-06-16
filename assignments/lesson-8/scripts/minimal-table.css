@@ -10,8 +10,11 @@ table {
   font-family: Ubuntu, sans-serif;
 }
 
-td, th {
-  padding: 10px 20px;
+td {
+    border: lightgrey solid 1px;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
 }
 
 thead th {
@@ -25,11 +28,6 @@ th {
     font-size: 1rem;
     color:white;
   }
-
-td {
-  text-align: center;
-  border: gray;
-}
 
 tr:nth-child(even) td {
   background-color: #e7f0ed;
@@ -46,8 +44,6 @@ tr:nth-child(odd) td {
 
 tfoot tr td {
     background-color: #7fb9c2;
+    font-size: .5rem;
 }
 
-caption {
-  padding: 10px;
-}
