@@ -46,9 +46,9 @@ tr:nth-child(odd) td {
     color: white;
 }
 
-tfoot tr td{
+tfoot{
     background-color: #7fb9c2;
-    font-size: 1rem;
+    font-size: .6rem;
     padding: 10px;
 }
 
