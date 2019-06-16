@@ -42,7 +42,7 @@ tr:nth-child(odd) td {
     color: white;
 }
 
-#footer{
+tfoot {
     background-color: #7fb9c2;
 }
 
