@@ -24,7 +24,7 @@ thead th {
     color:black;
     font-size: 2rem;
     border-collapse: collapse;
-    padding: 6px;
+    padding: 8px;
 }
 
 th {
@@ -46,8 +46,9 @@ tr:nth-child(odd) td {
     color: white;
 }
 
-tfoot tr td {
+tfoot tr td{
     background-color: #7fb9c2;
-    font-size: .5rem;
+    font-size: 1rem;
+    padding: 10px;
 }
 
