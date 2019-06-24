@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang= "en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="whats the weather website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>what is the weather?</title>
+    <link href="scripts/small-8.css" rel="stylesheet">
+    <link href="scripts/large-7.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scripts/hamburger.js"></script>
+    <script type="text/javascript" src="scripts/currentdate.js"></script>
+   <!-- <script type="text/javascript" src="scripts/windchill.js"></script> -->
+</head>
+
+<body>
+    <header>
+      <img src="images/thunder.png" alt="thunder">
+       <div class="headertext">
+            <h1>WHAT IS THE WEATHER?</h1>
+      <div class="subheader">Idaho's favorite weather site</div>
+      </div>
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+
+        <ul id="mainMenu" class="hide">
+          <li>
+            <a href="#" onclick="">Menu</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="preston-7.html">Preston</a>
+          </li>
+          <li>
+            <a href="#">Soda Springs</a>
+          </li>
+          <li>
+            <a href="#">Fish Haven</a>
+          </li>
+          <li>
+            <a href="#">Storm Center</a>
+          </li>
+          <li>
+            <a href="gallery-7.html">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+
+    <script>
+    var requestURL = https://byui-cit230.github.io/weather/data/towndata.json;
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+        var towninfo = request.response;
+ 
+    }
+
+
+    function towninfo(jsonObj) {
+  var towns = jsonObj['towns'];
+      
+  for (var i = 0; i < towns.length; i++) {
+    var myArticle = document.createElement('article');
+    var myH2 = document.createElement('h2');
+    var myPara1 = document.createElement('p');
+    var myPara2 = document.createElement('p');
+    var myPara4 = document.createElement('p');
+    var myPara5 = document.createElement('p');
+    var myList = document.createElement('ul');
+
+    myH2.textContent = towns[i].name;
+    myPara1.textContent = towns[i].motto;
+    myPara2.textContent = towns[i].age;
+    myPara3.textContent = towns[i].yearFounded;
+    myPara4.textContent = towns[i].currentPopulation;
+    myPara5.textContent = towns[i].averageRainfall;
+
+        
+    var events = towns[i].events;
+    for (var j = 0; j < events.length; j++) {
+      var listItem = document.createElement('li');
+      listItem.textContent = events[j];
+      myList.appendChild(listItem);
+    }
+
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+    myArticle.appendChild(myPara4);
+    myArticle.appendChild(myPara5);
+    myArticle.appendChild(myList);
+
+    section.appendChild(myArticle);
+  }
+}
