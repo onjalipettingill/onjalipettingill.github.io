@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <script type="text/javascript" src="scripts/hamburger.js"></script>
     <script type="text/javascript" src="scripts/currentdate.js"></script>
-   <!-- <script type="text/javascript" src="scripts/windchill.js"></script> -->
+  
 </head>
 
 <body>
@@ -60,7 +60,8 @@
     request.responseType = 'json';
     request.send();
     request.onload = function() {
-        var towninfo = request.response;
+        var towns = request.response;
+        towns('towninfo');
  
     }
 
