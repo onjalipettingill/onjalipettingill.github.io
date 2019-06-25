@@ -5,7 +5,7 @@
     <meta name="description" content="whats the weather website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>what is the weather?</title>
-    <link href="scripts/small-8.css" rel="stylesheet">
+    <link href="scripts/small-9.css" rel="stylesheet">
     <link href="scripts/large-7.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" />
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
@@ -53,33 +53,28 @@
         </ul>
       </nav>
 
-      <section id="Preston">
-
-      </section>
-      <section id="Soda Springs">
-
-      </section>
-      <section id="Fish Haven">
+      <section>
 
       </section>
 
 
     <script>
+    var section = document.querySelector('section');
+
     var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json' ;
     var request = new XMLHttpRequest();
-    request.open('GET', requestURL , true);
-    //request.responseType = 'json';
+    request.open('GET', requestURL);
+    request.responseType = 'json';
     request.send();
     request.onload = function() {
-        var towns = JSON.parse(request.response)
-        console.log(towns);
+        var towns = request.response;
+       
         towninfo(towns);
     }
 
 
-    function towninfo(towns) {
-      console.log(towns);
-
+    function towninfo(jsonObj) {
+      var towns = (jsonObj)['towns']
       
   for (var i = 0; i < towns.length; i++) {
 if( towns[i].name == "Preston" || towns[i].name == "Soda Springs"  || towns[i].name == "Fish Haven" ){
@@ -87,15 +82,15 @@ if( towns[i].name == "Preston" || towns[i].name == "Soda Springs"  || towns[i].n
     var myH2 = document.createElement('h2');
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
+    var myPara3 = document.createElement('p');
     var myPara4 = document.createElement('p');
-    var myPara5 = document.createElement('p');
     var myList = document.createElement('ul');
 
     myH2.textContent = towns[i].name;
     myPara1.textContent = towns[i].motto;
     myPara2.textContent = 'year founded: ' + towns[i].yearFounded;
     myPara3.textContent = 'population: ' + towns[i].currentPopulation;
-    myPara4.textContent = towns[i].averageRainfall;
+    myPara4.textContent = 'average rainfall: ' + towns[i].averageRainfall;
 
         
     var events = towns[i].events;
@@ -112,11 +107,10 @@ if( towns[i].name == "Preston" || towns[i].name == "Soda Springs"  || towns[i].n
     myArticle.appendChild(myPara4);
     myArticle.appendChild(myList);
 
-    var section = document.getElementById(towns[i].name);
+   //var section = document.getElementById(towns[i].name);
 
     section.appendChild(myArticle);
-
-  }
+}
   }
 }
 </script>
