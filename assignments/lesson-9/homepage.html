@@ -74,7 +74,7 @@
 
 
     function towninfo(jsonObj) {
-      var towns = (jsonObj)['towns']
+      var towns = (jsonObj)['towns'];
       
   for (var i = 0; i < towns.length; i++) {
 if( towns[i].name == "Preston" || towns[i].name == "Soda Springs"  || towns[i].name == "Fish Haven" ){
@@ -84,6 +84,7 @@ if( towns[i].name == "Preston" || towns[i].name == "Soda Springs"  || towns[i].n
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
     var myPara4 = document.createElement('p');
+    var myPara5 = document.createElement('p');
     var myList = document.createElement('ul');
 
     myH2.textContent = towns[i].name;
@@ -91,12 +92,13 @@ if( towns[i].name == "Preston" || towns[i].name == "Soda Springs"  || towns[i].n
     myPara2.textContent = 'year founded: ' + towns[i].yearFounded;
     myPara3.textContent = 'population: ' + towns[i].currentPopulation;
     myPara4.textContent = 'average rainfall: ' + towns[i].averageRainfall;
-
+    myPara5.textContent = 'town events: ';
+    
         
-    var events = towns[i].events;
-    for (var j = 0; j < events.length; j++) {
+    var townEvents = towns[i].events;
+    for (var j = 0; j < townEvents.length; j++) {
       var listItem = document.createElement('li');
-      listItem.textContent = events[j];
+      listItem.textContent = townEvents[j];
       myList.appendChild(listItem);
     }
 
@@ -105,6 +107,7 @@ if( towns[i].name == "Preston" || towns[i].name == "Soda Springs"  || towns[i].n
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
+    myArticle.appendChild(myPara5);
     myArticle.appendChild(myList);
 
    //var section = document.getElementById(towns[i].name);
