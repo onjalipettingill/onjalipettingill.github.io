@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>what is the weather?</title>
     <link href="scripts/small-9.css" rel="stylesheet">
-    <link href="scripts/large-7.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="scripts/large-9.css" rel="stylesheet">
+    <link rel="stylesheet" href="scripts/normalize.css" />
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -54,7 +54,7 @@
       </nav>
 
       <section>
-
+          
       </section>
 
 
@@ -84,31 +84,50 @@ if( towns[i].name == "Preston" || towns[i].name == "Soda Springs"  || towns[i].n
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
     var myPara4 = document.createElement('p');
-    var myPara5 = document.createElement('p');
-    var myList = document.createElement('ul');
+    var myimage = document.createElement('img');
+    //var myPara5 = document.createElement('p');
+    //var myList = document.createElement('ul');
 
     myH2.textContent = towns[i].name;
     myPara1.textContent = towns[i].motto;
     myPara2.textContent = 'year founded: ' + towns[i].yearFounded;
     myPara3.textContent = 'population: ' + towns[i].currentPopulation;
     myPara4.textContent = 'average rainfall: ' + towns[i].averageRainfall;
-    myPara5.textContent = 'town events: ';
+    //myPara5.textContent = 'town events: ';
     
+    if( towns[i].name == 'Preston'){
+      myimage.setAttribute('src','images/hills-sky.jpg');
+      myimage.setAttribute('alt','hills and sky');
+      
+    }
+
+    else if( towns[i].name == 'Soda Springs'){
+      myimage.setAttribute('src','images/snowy-mountains.jpg');
+      myimage.setAttribute('alt','snowy mountains');
+      
+    }
+
+    else if( towns[i].name == 'Fish Haven'){
+      myimage.setAttribute('src','images/road-sky.jpg');
+      myimage.setAttribute('alt','road and sky');
+      
+    }
         
-    var townEvents = towns[i].events;
+    /*var townEvents = towns[i].events;
     for (var j = 0; j < townEvents.length; j++) {
       var listItem = document.createElement('li');
       listItem.textContent = townEvents[j];
       myList.appendChild(listItem);
-    }
+    }*/
 
     myArticle.appendChild(myH2);
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
-    myArticle.appendChild(myPara5);
-    myArticle.appendChild(myList);
+    myArticle.appendChild(myimage);
+    //myArticle.appendChild(myPara5);
+    //myArticle.appendChild(myList);
 
    //var section = document.getElementById(towns[i].name);
 
