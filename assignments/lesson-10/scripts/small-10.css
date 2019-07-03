@@ -25,7 +25,7 @@ header > img {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 4.5em;
     font-family: 'Fjalla One', sans-serif;
     color: rgb(65, 62, 122);
     letter-spacing: 3px;
@@ -37,7 +37,7 @@ h1 {
     font-size: 1.5em;
     color: white; 
     text-align: center;
-    margin-top: -40px;
+    margin-top: -20px;
     letter-spacing: 3px;
 }
 
@@ -247,7 +247,7 @@ form label.top input {
       font-size: 1rem;
   }
 
-  /*---------------homepage-------------*/
+  /*---------------homepage-------------
 
   /*header p {
     font-size: 1.3rem;
