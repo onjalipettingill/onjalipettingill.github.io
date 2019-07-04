@@ -48,6 +48,19 @@
         margin-right: 10rem;
     }
 
+    .table {
+      display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .days{
+      word-spacing: 1em;
+    }
+
      /*---------------homepage-------------
 
   header p {

@@ -9,19 +9,36 @@ forecastRequest.onload =  function () {
     let forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
 
+    var section = document.querySelector('body');
+    var table = document.getElementById('table')
+    
 
-document.getElementById('day1').innerHTML = forecastData.list[6].main.temp;
-document.getElementById('day2').innerHTML = forecastData.list[14].main.temp;
-document.getElementById('day3').innerHTML = forecastData.list[22].main.temp;
-document.getElementById('day4').innerHTML = forecastData.list[30].main.temp;
-document.getElementById('day5').innerHTML = forecastData.list[38].main.temp;
-console.log(forecastData.list[4].main.temp);
+    for (var i=0; i < forecastData.list.length; i++) {
+    if(forecastData.list[i].dt_txt.includes('18:00:00')){
+            var myDiv = document.createElement('div');
+            var days = document.createElement('h4');
+            var icon = document.createElement('img');
+            var temp  = document.createElement('p');
+           
+           
+            //days.textContent = 
+            temp.textContent =  forecastData.list[i].main.temp;
+            icon.textContent =  forecastData.list[i].weather[0];
+            myDiv.className = "table"
+
+            myDiv.appendChild(days);
+            myDiv.appendChild(temp);
+            myDiv.appendChild(icon);
+
+            table.appendChild(myDiv);
+        
+            let img = "http://openweathermap.org/img/wn/" + forecastData.list[i].weather[0].icon + ".png";
+            let desc = "weather icon";      
+
+            icon.setAttribute('src', img);
+            icon.setAttribute('alt', desc);
 
 
-let icon = 'http://openweathermap.org/img/wn/01d@2x.png';
-let desc = forecastData.list[6].weather["0"].description;
-
-document.getElementById('day1-img').setAttribute('src' , icon);
-document.getElementById('day1-img').setAttribute('description' , desc);
-
+}
+    }
 }
