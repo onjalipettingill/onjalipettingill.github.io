@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang= "en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="whats the weather website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>what is the weather?</title>
+    <link href="scripts/small-8.css" rel="stylesheet">
+    <link href="scripts/large-7.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scripts/hamburger.js"></script>
+    <script type="text/javascript" src="scripts/currentdate.js"></script>
+   <!-- <script type="text/javascript" src="scripts/windchill.js"></script> -->
+</head>
+
+<body>
+    <header>
+      <img src="images/thunder.png" alt="thunder">
+       <div class="headertext">
+            <h1>WHAT IS THE WEATHER?</h1>
+      <div class="subheader">Idaho's favorite weather site</div>
+      </div>
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+
+        <ul id="mainMenu" class="hide">
+          <li>
+            <a href="#" onclick="">Menu</a>
+          </li>
+          <li>
+            <a href="homepage.html">Home</a>
+          </li>
+          <li>
+            <a href="preston-10.html">Preston</a>
+          </li>
+          <li>
+            <a href="#">Soda Springs</a>
+          </li>
+          <li>
+            <a href="#">Fish Haven</a>
+          </li>
+          <li>
+            <a href="stormcenter.html">Storm Center</a>
+          </li>
+          <li>
+            <a href="gallery-7.html">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+<main>
+    <div class="stormheader">STORM CENTER</div>
+    <div class="stormform">
+        
+      <form action="thanks.html">
+        <label class="top"> full name*
+        <input type="text" name:"fullname" pattern="[A-Za-z]{5}" required></label>
+        <br>
+        <label class="top">email*
+        <input type="email" name="email" placeholder="johndoe@gmail.com" required>
+        <br></label>
+        <label class="top">telephone*
+        <input type="tel" name="tel" required></label>
+        <br>
+        <label class="top">zip code*
+        <input type="number" name="zipcode" required></label>
+        <br>
+        <label class="top">storm date
+        <input type="date" name="date"></label>
+        <br>
+        <label class="bottom">storm type:
+        <input list="stormtype">
+            <datalist id="stormtype">
+                <option value="flash flood">
+                <option value="hail">
+                <option value="hurricane">
+                <option value="thunder storm">
+                <option value="tornado">
+            </datalist></label>
+        
+    <label class="bottom">storm severity:
+        <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+        <span id="ratingvalue">5</span>
+    </label>
+
+    <label class="bottom"></label>storm region:
+        <select>
+                <option value="">select region</option>
+                <option value="preston">Preston</option>
+                <option value="fish haven">Fish Haven</option>
+                <option value="sugar city">Sugar City</option>
+        </select>
+    <label class="bottom">
+        user in-danger level:
+        <label><input type="radio" name="danger" value="yes">yes</label>
+        <label><input type="radio" name="danger" value="maybe">maybe</label>
+        <label><input type="radio" name="danger" value="no">no</label>
+    </label>
+     <label class="top">additional information or comments:<br>
+        <textarea rows="4" cols="50">
+        </textarea>
+    </label>
+
+
+        <input type="submit" value="Submit" class="submitBtn">
+      </form> 
+    </div>  
+
+
+
+</main>
+    <footer class="footer">
+            <script>
+                    var now = new Date();
+                    var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+                    var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+                    var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+                    function fourdigits(number) {
+                        return (number < 1000) ? number + 1900 : number;
+                    }
+                    today =  days[now.getDay()] + ", " +
+                             months[now.getMonth()] + " " +
+                             date + ", " +
+                             (fourdigits(now.getYear())) ;
+                    document.write(today);
+            </script>
+    </footer>
+</body>
+</html>

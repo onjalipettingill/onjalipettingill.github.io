@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang= "en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="whats the weather website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>what is the weather?</title>
+    <link href="scripts/small-9.css" rel="stylesheet">
+    <link href="scripts/large-9.css" media="(min-width: 601px)" rel="stylesheet">
+    <link rel="stylesheet" href="scripts/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scripts/hamburger.js"></script>
+    <script type="text/javascript" src="scripts/currentdate.js"></script>
+  
+</head>
+
+<body>
+    <header>
+      <img src="images/thunder.png" alt="thunder">
+       <div class="headertext">
+            <h1>WHAT IS THE WEATHER?</h1>
+      <div class="subheader">Idaho's favorite weather site</div>
+      </div>
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+
+        <ul id="mainMenu" class="hide">
+          <li>
+            <a href="#" onclick="">Menu</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="preston-7.html">Preston</a>
+          </li>
+          <li>
+            <a href="#">Soda Springs</a>
+          </li>
+          <li>
+            <a href="#">Fish Haven</a>
+          </li>
+          <li>
+            <a href="#">Storm Center</a>
+          </li>
+          <li>
+            <a href="gallery-7.html">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section>
+          
+      </section>
+
+
+    <script>
+    var section = document.querySelector('section');
+
+    var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json' ;
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+        var towns = request.response;
+       
+        towninfo(towns);
+    }
+
+
+    function towninfo(jsonObj) {
+      var towns = (jsonObj)['towns'];
+      
+  for (var i = 0; i < towns.length; i++) {
+if( towns[i].name == "Preston" || towns[i].name == "Soda Springs"  || towns[i].name == "Fish Haven" ){
+    var myArticle = document.createElement('article');
+    var myH3 = document.createElement('h3');
+    var myPara1 = document.createElement('p');
+    var myPara2 = document.createElement('p');
+    var myPara3 = document.createElement('p');
+    var myPara4 = document.createElement('p');
+    var myimage = document.createElement('img');
+    //var myPara5 = document.createElement('p');
+    //var myList = document.createElement('ul');
+
+    myH3.textContent = towns[i].name;
+    myPara1.textContent = towns[i].motto;
+    myPara2.textContent = 'year founded: ' + towns[i].yearFounded;
+    myPara3.textContent = 'population: ' + towns[i].currentPopulation;
+    myPara4.textContent = 'average rainfall: ' + towns[i].averageRainfall;
+    //myPara5.textContent = 'town events: ';
+    
+    if( towns[i].name == 'Preston'){
+      myimage.setAttribute('src','images/hills-sky.jpg');
+      myimage.setAttribute('alt','hills and sky');
+      
+    }
+
+    else if( towns[i].name == 'Soda Springs'){
+      myimage.setAttribute('src','images/snowy-mountains.jpg');
+      myimage.setAttribute('alt','snowy mountains');
+      
+    }
+
+    else if( towns[i].name == 'Fish Haven'){
+      myimage.setAttribute('src','images/road-sky.jpg');
+      myimage.setAttribute('alt','road and sky');
+      
+    }
+        
+    /*var townEvents = towns[i].events;
+    for (var j = 0; j < townEvents.length; j++) {
+      var listItem = document.createElement('li');
+      listItem.textContent = townEvents[j];
+      myList.appendChild(listItem);
+    }*/
+
+    myArticle.appendChild(myH3);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+    myArticle.appendChild(myPara4);
+    myArticle.appendChild(myimage);
+    //myArticle.appendChild(myPara5);
+    //myArticle.appendChild(myList);
+
+   //var section = document.getElementById(towns[i].name);
+
+    section.appendChild(myArticle);
+}
+  }
+}
+</script>
+</body>
+</html>
