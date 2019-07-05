@@ -17,7 +17,5 @@ document.getElementById('windSpeed').innerHTML = weatherData.wind.speed;
 let icon = 'http://openweathermap.org/img/wn/01d@2x.png';
 let desc = weatherData.weather[0].description;
 
-document.getElementById('cc-img').setAttribute('src' , icon);
-document.getElementById('cc-img').setAttribute('description' , desc);
 
 }
