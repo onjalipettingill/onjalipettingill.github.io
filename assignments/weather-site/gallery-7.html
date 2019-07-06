@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="/scripts/hamburger.js"></script>
+    <script type="text/javascript" src="/scripts/menubar.js"></script>
     <script type="text/javascript" src="/scripts/currentdate.js"></script>
     <script type="text/javascript" src="/scripts/windchill.js"></script>
 </head>
@@ -27,12 +27,10 @@
           </header>
 
     <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-
-        <ul id="mainMenu" class="hide">
-          <li>
-            <a href="" onclick="">Menu</a>
-          </li>
+        <ul class="navigation">
+            <li>
+               <a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a>
+            </li>
           <li>
             <a href="homepage.html">Home</a>
           </li>
@@ -40,7 +38,7 @@
             <a href="preston-10.html">Preston</a>
           </li>
           <li>
-            <a href="#">Soda Springs</a>
+            <a href="Soda-Springs.html">Soda Springs</a>
           </li>
           <li>
             <a href="#">Fish Haven</a>
@@ -89,4 +87,23 @@
         </figure> 
     </div>
 
+  </main>
+  <footer class="footer">
+          <script>
+                  var now = new Date();
+                  var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+                  var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+                  var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+                  function fourdigits(number) {
+                      return (number < 1000) ? number + 1900 : number;
+                  }
+                  today =  days[now.getDay()] + ", " +
+                           months[now.getMonth()] + " " +
+                           date + ", " +
+                           (fourdigits(now.getYear())) ;
+                  document.write(today);
+          </script>
+  </footer>
 </body>
+</html>
+

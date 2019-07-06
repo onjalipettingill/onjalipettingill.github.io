@@ -87,16 +87,22 @@ h2 {
 .weathersummary {
 
     position: absolute;
-	top: 1rem;
-    left: 15rem;
-    width: 11%;
-    height: 27rem;
+	top: 0rem;
+    left: 4rem;
+    width: 13%;
+    height: 14rem;
 	background-color:rgb(175, 167, 167);
-	border: 5px solid white;
-    padding: .4rem;
-    font-size: .4rem;
-    color:  rgb(65, 62, 122);
+	border: 2px solid white;
+    padding: .2rem;
+    font-size: .7rem;
+    color:  #413e7a;
 } 
+
+.weatherdetails{
+    display: block;
+    line-height: .5;
+    
+}
 
 .forecast {
     display: none;
