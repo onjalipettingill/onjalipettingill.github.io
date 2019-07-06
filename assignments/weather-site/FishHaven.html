@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="scripts/hamburger.js"></script>
+    <script type="text/javascript" src="scripts/menubar.js"></script>
     <script type="text/javascript" src="scripts/currentdate.js"></script>
     <script type="text/javascript" src="scripts/weatherapi.js"></script>
     <script type="text/javascript" src="scripts/windchill.js"></script>
@@ -28,12 +28,11 @@
 
     </header>
     <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-
-        <ul id="mainMenu" class="hide">
-          <li>
-            <a href="#" onclick="">Menu</a>
-          </li>
+        <ul class="navigation">
+            <li>
+                <a href="#" title="Menu"
+                onclick="toggleMenu()">&#9776; Menu</a>
+            </li>
           <li>
             <a href="homepage.html">Home</a>
           </li>

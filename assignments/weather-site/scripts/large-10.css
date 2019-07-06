@@ -1,5 +1,5 @@
 @media screen and (min-width: 601px) {
-    nav button {display: none;}
+    /*nav button {display: none;}
 
     nav button {
         margin: .2rem 2%;
@@ -28,9 +28,9 @@
         background-color:  rgb(122, 204, 200);
     } 
 
-    #mainMenu {
+    .navigation {
         display: block;
-    }
+    }*/
     .weathersummary {
         padding: 1rem;
         font-size: 1rem;

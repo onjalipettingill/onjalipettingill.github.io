@@ -41,7 +41,13 @@ header h1 {
     letter-spacing: 3px;
 }
 
-nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
+nav {	
+        margin: 0 auto;
+        max-width: auto;
+        background-color: rgb(122, 204, 200);
+        font-size: 1.5rem;
+    }
+    
 .navigation { list-style: none; text-align: center; }
   .navigation li:first-child { display: block;}
   .navigation li { display: none;}
@@ -54,7 +60,7 @@ nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 @media only screen and (min-width: 32.5em) {
   .navigation li:first-child { display: none;	}
 	.navigation li { display: inline-block; margin-right: 1rem;}	
-	.navigation li a { color: yellow;}
+	.navigation li a { color: white;}
 }
 
 
