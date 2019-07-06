@@ -20,7 +20,7 @@ let desc = weatherData.weather[0].description;
 
 }
 
-//-----------Soda Springs
+//-----------Fish Haven
 
 let weatherRequestFH = new XMLHttpRequest();
 let apiFHURLstring =
@@ -40,6 +40,29 @@ document.getElementById('humidity').innerHTML = weatherDataFH.main.humidity;
 document.getElementById('windSpeed').innerHTML = weatherDataFH.wind.speed;
 let icon = 'http://openweathermap.org/img/wn/01d@2x.png';
 let desc = weatherDataFH.weather[0].description;
+
+}
+
+//-----------Soda Springs
+
+let weatherRequestSS = new XMLHttpRequest();
+let apiSSURLstring =
+'https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=9f0d8ba5071db5ba05fc4a7a0b1c086b';
+
+weatherRequestSS.open("get" , apiSSURLstring , true);
+weatherRequestSS.send();
+
+weatherRequestSS.onload =  function () {
+    let weatherData3 = JSON.parse(weatherRequestSS.responseText);
+    console.log(weatherData3);
+
+
+document.getElementById('current-temp').innerHTML = weatherDataSS.main.temp;
+document.getElementById('currently').innerHTML = weatherDataSS.weather[0].description;
+document.getElementById('humidity').innerHTML = weatherDataSS.main.humidity;
+document.getElementById('windSpeed').innerHTML = weatherDataSS.wind.speed;
+let icon = 'http://openweathermap.org/img/wn/01d@2x.png';
+let desc = weatherDataSS.weather[0].description;
 
 }
 
