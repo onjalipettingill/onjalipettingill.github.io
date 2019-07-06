@@ -42,61 +42,26 @@ header h1 {
 }
 
 nav {	
-        margin: 0 auto;
+        margin-top: -30px ;
         max-width: auto;
         background-color: rgb(122, 204, 200);
         font-size: 1.5rem;
     }
-    
+
 .navigation { list-style: none; text-align: center; }
   .navigation li:first-child { display: block;}
   .navigation li { display: none;}
   .navigation a {	display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
-  .navigation a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
+  .navigation a:hover {	color: rgb(65, 62, 122); background-color: #fff; font-weight: 700;	}
 
   .responsive li { display: block; }
 
-/* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
+
+@media only screen and (min-width: 600px) {
   .navigation li:first-child { display: none;	}
 	.navigation li { display: inline-block; margin-right: 1rem;}	
 	.navigation li a { color: white;}
 }
-
-
-
-/*nav button { 
-    margin: .2rem 2%;
-    background-color: trasparent;
-    border: none;
-    font-size: 1.6rem;
-    color: rgb(122, 204, 200);
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
-    background-color: rgb(122, 204, 200);
-    font-family: 'Arvo';
-    font-size: 1.5rem;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}  
-
-nav ul li a{
-    display: block;
-    padding: .8rem;
-    text-decoration: none;
-    color: white;
-    border-top: 1px solid rgba(0 0 0 .3);
-}
-
-nav ul.hide {display: none;}*/
     
 
 h2 {
@@ -125,7 +90,7 @@ h2 {
 	top: 1rem;
     left: 15rem;
     width: 11%;
-    height: 17%;
+    height: 27rem;
 	background-color:rgb(175, 167, 167);
 	border: 5px solid white;
     padding: .4rem;
@@ -133,6 +98,9 @@ h2 {
     color:  rgb(65, 62, 122);
 } 
 
+.forecast {
+    display: none;
+}
 .middle {
 
     background-color: rgb(203, 206, 205);
@@ -141,7 +109,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
-    display: flow-root;*/
+    display: flow-root;
 }
 
 .windyparagraph {
@@ -214,7 +182,7 @@ figure:hover {
 
 .desc {
     padding: 25px;
-    text align: center;
+    text-align: center;
 }
 
 figure {
