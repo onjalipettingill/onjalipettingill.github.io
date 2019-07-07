@@ -244,58 +244,9 @@ form label.top input {
       font-size: 1rem;
   }
 
-  /*---------------homepage-------------
+  /*---------------homepage-------------*/
 
-  /*header p {
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-align: center;
-  }
-  
- 
 
-  section {
-      display: flex;
-      padding: 30px 50px;
-  }
-  
-  section article {
-    width: 33%;
-   display: flex;
-   flex-direction: column;
-   margin: 10px;
-   padding: 10px 10px 50px;
-   color:  rgb(65, 62, 122);
-   background-color: white;
-    border-style: solid;
-    border-width: 20px 2px;
-    border-color:  rgb(175, 167, 167);
-    align-items: center;
-  }
-  
-  section p {
-    margin: 5px 0;
-    color:  rgb(71, 71, 71);
-
-  }
-
-section img {
-    width: 100%;
-    margin-top: 40px;
-}
-  
-  section ul {
-    margin-top: 0;
-    color: black;
-  }
-  
-  h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    text-align: left;
-    font-family: 'Fjalla One', sans-serif;
-    
-  }*/
 
   section article {
    width: 80%;
@@ -309,6 +260,13 @@ section img {
     border-width: 20px 2px;
     border-color:  rgb(175, 167, 167);
     align-items: center;
+  }
+
+  .prestonevents {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
+        width: 78%;
   }
   
 

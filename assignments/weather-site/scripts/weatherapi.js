@@ -30,8 +30,8 @@ weatherRequestFH.open("get" , apiFHURLstring , true);
 weatherRequestFH.send();
 
 weatherRequestFH.onload =  function () {
-    let weatherData2 = JSON.parse(weatherRequestFH.responseText);
-    console.log(weatherData2);
+    let weatherDataFH = JSON.parse(weatherRequestFH.responseText);
+    console.log(weatherDataFH);
 
 
 document.getElementById('current-temp').innerHTML = weatherDataFH.main.temp;
@@ -53,8 +53,8 @@ weatherRequestSS.open("get" , apiSSURLstring , true);
 weatherRequestSS.send();
 
 weatherRequestSS.onload =  function () {
-    let weatherData3 = JSON.parse(weatherRequestSS.responseText);
-    console.log(weatherData3);
+    let weatherDataSS = JSON.parse(weatherRequestSS.responseText);
+    console.log(weatherDataSS);
 
 
 document.getElementById('current-temp').innerHTML = weatherDataSS.main.temp;
