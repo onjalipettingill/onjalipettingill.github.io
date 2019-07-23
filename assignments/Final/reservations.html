@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang= "en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Temple Inn and Suites">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temple Inn and Suites</title>
+    <link href="scripts/small.css" rel="stylesheet">
+    <link href="scripts/large.css" media="(min-width: 601px)" rel="stylesheet">
+    <link rel="stylesheet" href="scripts/normalize.css" />
+</head>
+
+<body>
+    <header>
+            <img src="temple.png" alt="temple silhouette">
+            <div class="headertext">
+                 <h1>Temple Inn and Suites</h1>
+           <div class="subheader">a great place to stay</div>
+           </div>                                                        
+
+    </header>
+
+    <nav>
+            <ul class="navigation">
+                    <li>
+                        <a href="#" title="Menu"
+                        onclick="toggleMenu()">&#9776; Menu</a>
+                       
+                    </li>
+                  <li>
+                    <a href="homepage.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="services.html">Services</a>
+                  </li>
+                  <li>
+                    <a href="temples.html">Temples</a>
+                  </li>
+                  <li>
+                    <a href="reservation.html">Reservation</a>
+                  </li>
+            
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+
+    </nav>
+
+    <main>
+            <div class="reservations">reservations</div>
+            <div class="stormform">
+                
+              <form action="thanks.html">
+                <label class="top"> full name*
+                <input type="text" name:"fullname" pattern="[A-Za-z]{10}" required></label>
+                <br>
+                <label class="top">email*
+                <input type="email" name="email" placeholder="johndoe@gmail.com" required>
+                <br></label>
+                <label class="top">telephone*
+                <input type="tel" name="tel" required></label>
+                <br>
+                <label class="top">zip code*
+                <input type="number" name="zipcode" required></label>
