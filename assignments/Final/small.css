@@ -8,3 +8,73 @@ header {
     background-color:rgb(175, 167, 167);
     padding: 1rem;
 }    
+
+h1 {
+    font-family: 'Bad Script', cursive;
+}
+
+.subheader {
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 1.5rem;
+    
+}
+
+.templeSilhouette {
+    width: 80px;
+    height: 100px;
+}
+
+nav {	
+    margin-top: -30px ;
+    max-width: auto;
+    background-color: rgb(122, 204, 200);
+    font-size: 1.5rem;
+}
+
+.navigation { list-style: none; text-align: center; }
+.navigation li:first-child { display: block;}
+.navigation li { display: none;}
+.navigation a {	display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
+.navigation a:hover {	color: rgb(65, 62, 122); background-color: #fff; font-weight: 700;	}
+
+.responsive li { display: block; }
+
+
+@media only screen and (min-width: 600px) {
+.navigation li:first-child { display: none;	}
+.navigation li { display: inline-block; margin-right: 1rem;}	
+.navigation li a { color: white;}
+}
+
+.gilbertTemple {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+        height: auto; 
+    }
+
+.calltoAction {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #AB5051;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Zilla Slab', serif;  
+    padding-top: 25px; 
+    padding-bottom: 25px; 
+} 
+
+.middle {
+
+}
+
+.waitingroom {
+
+    
+}
+
