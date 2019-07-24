@@ -5,20 +5,23 @@
     <meta name="description" content="Temple Inn and Suites">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Temple Inn and Suites</title>
-    <link href="scripts/small.css" rel="stylesheet">
-    <link href="scripts/large.css" media="(min-width: 601px)" rel="stylesheet">
+    <link href="small.css" rel="stylesheet">
+    <link href="large.css" media="(min-width: 601px)" rel="stylesheet">
     <link rel="stylesheet" href="scripts/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-            <img src="temple.png" alt="temple silhouette">
+            <img src="images/temple.png" alt="temple silhouette" class="templeSilhouette">
             <div class="headertext">
                  <h1>Temple Inn and Suites</h1>
            <div class="subheader">a great place to stay</div>
            </div>                                                        
 
     </header>
+
 
     <nav>
             <ul class="navigation">
@@ -49,17 +52,52 @@
 
     <main>
             <div class="reservations">reservations</div>
-            <div class="stormform">
+            <div class="reservationform">
                 
               <form action="thanks.html">
                 <label class="top"> full name*
                 <input type="text" name:"fullname" pattern="[A-Za-z]{10}" required></label>
                 <br>
+
                 <label class="top">email*
                 <input type="email" name="email" placeholder="johndoe@gmail.com" required>
                 <br></label>
+
                 <label class="top">telephone*
                 <input type="tel" name="tel" required></label>
                 <br>
+
                 <label class="top">zip code*
                 <input type="number" name="zipcode" required></label>
+                <br>
+
+                <label class="top">date of check-in
+                    <input type="date" name="date"></label>
+
+                    <br>
+                <label class="top">number of nights you will be staying
+                        <input type="number" name="nights"></label>
+                        <br> 
+                       
+                <label class="top">Location
+                  <select name="Locations">
+                      <option value="Cedar City">Cedar City</option>
+                      <option value="Boise">Boise</option>
+                      <option value="Washington D.C.">Washingtion DC</option>
+                      <option value="Salt Lake City">Salt Lake City</option>
+                </select>
+                <br>
+                </label>      
+                      <br>
+                <label class="top">special accommodations or comments:<br>
+                          <textarea rows="4" cols="50">
+                          </textarea>
+                </label> 
+                
+                <input type="submit" value="Submit" class="submitBtn">
+                
+                </form>
+                </div>
+                </main>
+                </body>
+                </html>

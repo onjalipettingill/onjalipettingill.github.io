@@ -5,14 +5,16 @@
     <meta name="description" content="Temple Inn and Suites">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Temple Inn and Suites</title>
-    <link href="scripts/small.css" rel="stylesheet">
-    <link href="scripts/large.css" media="(min-width: 601px)" rel="stylesheet">
-    <link rel="stylesheet" href="scripts/normalize.css" />
+    <link href="small.css" rel="stylesheet">
+    <link href="large.css" media="(min-width: 601px)" rel="stylesheet">
+    <link rel="stylesheet" href="scripts/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-            <img src="temple.png" alt="temple silhouette">
+            <img src="images/temple.png" alt="temple silhouette" class="templeSilhouette"> 
             <div class="headertext">
                  <h1>Temple Inn and Suites</h1>
            <div class="subheader">a great place to stay</div>
@@ -28,7 +30,7 @@
                        
                     </li>
                   <li>
-                    <a href="homepage.html">Home</a>
+                    <a href="Final-homepage.html">Home</a>
                   </li>
                   <li>
                     <a href="services.html">Services</a>
@@ -49,8 +51,8 @@
 
     </nav>
 
-    <section>
-        <h1>Specialized Services</h1>
+    <section class="amenities">
+        <h1>Amenities</h1>
         <ul>
             <li>
                Free access to changing rooms and bathroom facilities 
@@ -73,6 +75,15 @@
               A family search center that supports family search and ordinance work
             </li>
         </ul>
+
+        <picture>
+            
+            <source media="(max-width:600px )" srcset="images/waiting-room600.jpg">
+            <source media="(min-width:601px )" srcset="images/waiting-room1000.jpg">
+       
+        <img src="waiting-room1000" alt="waiting room" class="waitingroom">
+      
+        </picture>
     </section>
 
     <section>

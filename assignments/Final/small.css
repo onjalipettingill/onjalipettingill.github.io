@@ -5,12 +5,13 @@ header {
     align-items: center;
     width: 100%;
     height: 250px;
-    background-color:rgb(175, 167, 167);
+    background-color: rgb(214, 212, 206);
     padding: 1rem;
 }    
 
-h1 {
-    font-family: 'Bad Script', cursive;
+h1,h2 {
+    font-family: 'Parisienne', cursive;
+    color: #40405e;
 }
 
 .subheader {
@@ -18,6 +19,7 @@ h1 {
     text-align: center;
     margin-top: -30px;
     font-size: 1.5rem;
+    color: rgb(80, 71, 71);
     
 }
 
@@ -29,7 +31,7 @@ h1 {
 nav {	
     margin-top: -30px ;
     max-width: auto;
-    background-color: rgb(122, 204, 200);
+    background-color: #AB5051;
     font-size: 1.5rem;
 }
 
@@ -70,11 +72,99 @@ nav {
 } 
 
 .middle {
-
+    background-color: rgb(214, 212, 206);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .waitingroom {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    width: 80%;
+    height: auto;
 
     
+
 }
 
+h2 {
+    margin: 10px;
+    margin-bottom: -10px;
+}
+
+.templePara{
+    font-family: 'Zilla Slab', serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contact{
+    background-color: rgb(214, 212, 206);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------- RESERVATIONS----------------------*/
+
+.reservations{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4rem;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+}
+
+form label.top {
+    color: rgb(65, 62, 122);
+    margin: .5rem 1rem;
+    width: 100%;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.5em 
+}
+
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    width: 100%;
+    max-width: 80%;
+}
+
+.reservationform {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 8rem;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+
+  form label.bottom {
+      display: block;
+      margin-top: 2rem;
+      color: rgb(65, 62, 122);
+  }
+
+  form input.submitBtn {
+      width: 80%;
+      background-color: rgb(65, 62, 122);
+      color: white;
+      border: none;
+      margin: 1rem;
+      padding: .75rem 1.5rem;
+      font-family: 'Arvo';
+      font-size: 1rem;
+    
+  }
