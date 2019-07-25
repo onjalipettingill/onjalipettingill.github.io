@@ -50,6 +50,10 @@
 
     </nav>
 
+    <section>
+
+    </section>
+
     <script>
             var section = document.querySelector('section');
         
@@ -59,7 +63,7 @@
             request.responseType = 'json';
             request.send();
             request.onload = function() {
-                var towns = request.response;
+                var temples = request.response;
                
                 templeinfo(temples);
             }
@@ -68,20 +72,55 @@
             var temples = (jsonObj)['temples'];
             
         for (var i = 0; i < temples.length; i++) {
-        if( temples[i].location == "San Diego, CA" || towns[i].name == "San Antonio, TX"  || towns[i].name == "Seattle, WA"  || towns[i].name == "St. George, UT" ){
+        if( temples[i].location == "San Diego, CA" || temples[i].location == "San Antonio, TX"  || temples[i].location == "Seattle, WA"  || temples[i].location == "St. George, UT" )
             var myArticle = document.createElement('article');
             var myH3 = document.createElement('h3');
             var myPara1 = document.createElement('p');
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
-            var myPara4 = document.createElement('p');
             var myimage = document.createElement('img'); 
 
-                    myH3.textContent = temples[i].location;
-            myPara1.textContent = 'telephone number: ' +towns[i].telephone;
-            myPara2.textContent = 'dedication date: ' + towns[i].yearFounded;
-            myPara3.textContent = 'population: ' + towns[i].currentPopulation;
-            myPara4.textContent = 'average rainfall: ' + towns[i].averageRainfall;
+            myH3.textContent = temples[i].location;
+            myPara1.textContent = 'telephone number: ' + temples[i].telephone;
+            myPara2.textContent = 'dedication date: ' + temples[i].dedication;
+            myPara3.textContent = 'closure dates for 2019: ' + temples[i].closures;
+
+            if( temples[i].location == 'San Diego, CA'){
+      myimage.setAttribute('src','images/sanDiegoTemple600.jpg');
+      myimage.setAttribute('alt','temple');
+      
+    }
+
+    else if( temples[i].location == 'San Antonio, TX'){
+      myimage.setAttribute('src','images/sanAntonioTemple600.jpg');
+      myimage.setAttribute('alt','temple');
+      
+    }
+
+    else if( temples[i].location == 'Seattle, WA'){
+      myimage.setAttribute('src','seattleWashingtonTemple600.jpg');
+      myimage.setAttribute('alt','temple');
+      
+    }
+
+    else if( temples[i].location == 'St. George, UT'){
+      myimage.setAttribute('src','stgeorgeTemple600.jpg');
+      myimage.setAttribute('alt','temple');
+      
+    }
+
+    myArticle.appendChild(myH3);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+    myArticle.appendChild(myimage);
+
+    section.appendChild(myArticle);
+
+}
+        }
+    </script>
+           
     
                 
 
