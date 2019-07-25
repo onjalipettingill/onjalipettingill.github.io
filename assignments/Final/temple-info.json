@@ -1,0 +1,32 @@
+{
+    "temples" : [
+    {
+      "location": "San Diego, CA",
+      "telephone": "858-622-0991",
+      "dedication date": "April 25, 1993",
+      "closure dates for 2019" : "30 September, 11 November, 
+       27 November, 28 November, 24 December, 25 December,
+       31 December" 
+    },
+
+    {
+        "location": "San Antonio, TX",
+        "telephone": "210-538-0034",
+        "dedication date": "May 22, 2005",
+        "closure dates for 2019" : "30 September, 11 November, 
+         27 November, 28 November, 24 December, 25 December,
+         31 December"
+      },
+
+      {
+        "location": "Seattle, WA",
+        "telephone": "425-643-5144",
+        "dedication date": "November 17, 1980",
+        "closure dates for 2019" : "30 September, 11 November, 
+         27 November, 28 November, 24 December, 25 December,
+         31 December"
+      }
+    ]
+}
+
+      

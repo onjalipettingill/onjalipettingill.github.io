@@ -38,3 +38,45 @@
     justify-content: space-around;
     margin: 50px;
 }
+
+.suite-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+/*---------------homepage-----------------------*/
+
+.middle {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.exterior-image {
+    margin: 15px;
+    width: 500px;
+    height: 100%;
+}
+
+.templePara {
+    font-size: 1.5em;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: #AB5051;
+}
+
+iframe{
+    margin: 20px;
+}
+
+.address{
+    color: white;
+    text-align: left
+}
