@@ -209,4 +209,71 @@ form label.top input {
       height: auto;
   }
 
+  /*-----------------missionary page---------------------------*/
+
+   .missionaryPage {
+      background-color: rgb(214, 212, 206);
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 50px;
+   }
+
+   .suite-info {
+       font-size: 1.5em;
+       font-family: 'Zilla Slab', serif;
+       margin-left: 100px;
+       margin-right: 100px;
+       margin-top: -50px;
+   }
+
+   .suite-pics {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center; 
+   }
+
+   .gallery{
+       margin: 10px;
+   }
+
+   /*----------------reception page-------------------------*/
+
+   .receptionPage {
+    background-color: rgb(214, 212, 206);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+   }
+
+   .reception-info {
+    font-size: 1.5em;
+    font-family: 'Zilla Slab', serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -50px;
+   }
+
+   h4{
+       font-family: 'Parisienne', cursive;
+       font-size: 2.5em;
+       color:  rgb(65, 62, 122);
+       text-align: center;
+       margin-bottom: -10px;
+   }
+
+   .package-list {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.5em;
+   }
+
+   .bookReception {
+        font-family:'Parisienne', cursive;
+        font-size: 2.5em;
+        color:  rgb(65, 62, 122);
+        text-align: center;
+   }
+
   
