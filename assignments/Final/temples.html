@@ -50,7 +50,40 @@
 
     </nav>
 
+    <script>
+            var section = document.querySelector('section');
+        
+            var requestURL = 'https://onjalipettingill.github.io/assignments/Final/temple-info.json' ;
+            var request = new XMLHttpRequest();
+            request.open('GET', requestURL);
+            request.responseType = 'json';
+            request.send();
+            request.onload = function() {
+                var towns = request.response;
+               
+                templeinfo(temples);
+            }
+
+                    function templeinfo(jsonObj) {
+            var temples = (jsonObj)['temples'];
+            
+        for (var i = 0; i < temples.length; i++) {
+        if( temples[i].location == "San Diego, CA" || towns[i].name == "San Antonio, TX"  || towns[i].name == "Seattle, WA"  || towns[i].name == "St. George, UT" ){
+            var myArticle = document.createElement('article');
+            var myH3 = document.createElement('h3');
+            var myPara1 = document.createElement('p');
+            var myPara2 = document.createElement('p');
+            var myPara3 = document.createElement('p');
+            var myPara4 = document.createElement('p');
+            var myimage = document.createElement('img'); 
+
+                    myH3.textContent = temples[i].location;
+            myPara1.textContent = 'telephone number: ' +towns[i].telephone;
+            myPara2.textContent = 'dedication date: ' + towns[i].yearFounded;
+            myPara3.textContent = 'population: ' + towns[i].currentPopulation;
+            myPara4.textContent = 'average rainfall: ' + towns[i].averageRainfall;
     
+                
 
     </body>
     </html>

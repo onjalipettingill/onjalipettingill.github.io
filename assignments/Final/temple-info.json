@@ -3,8 +3,8 @@
     {
       "location": "San Diego, CA",
       "telephone": "858-622-0991",
-      "dedication date": "April 25, 1993",
-      "closure dates for 2019" : "30 September, 11 November, 
+      "dedication": "April 25, 1993",
+      "closures" : "30 September, 11 November, 
        27 November, 28 November, 24 December, 25 December,
        31 December" 
     },
@@ -12,8 +12,8 @@
     {
         "location": "San Antonio, TX",
         "telephone": "210-538-0034",
-        "dedication date": "May 22, 2005",
-        "closure dates for 2019" : "30 September, 11 November, 
+        "dedication": "May 22, 2005",
+        "closures" : "30 September, 11 November, 
          27 November, 28 November, 24 December, 25 December,
          31 December"
       },
@@ -21,8 +21,8 @@
       {
         "location": "Seattle, WA",
         "telephone": "425-643-5144",
-        "dedication date": "November 17, 1980",
-        "closure dates for 2019" : "30 September, 11 November, 
+        "dedication": "November 17, 1980",
+        "closures" : "30 September, 11 November, 
          27 November, 28 November, 24 December, 25 December,
          31 December"
       },
@@ -31,7 +31,7 @@
         "location": "St. George, UT",
         "telephone": "435-673-3533",
         "dedication date": "April 6, 1877",
-        "closure dates for 2019" : "closed for renovation starting Monday, 4 November 2019"
+        "closures" : "closed for renovation starting Monday, 4 November 2019"
       }
     ]
 }
