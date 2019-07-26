@@ -69,7 +69,7 @@
     display: flex;
     flex-direction: row;
     justify-content: left;
-    background-color: #AB5051;
+    background-color: rgb(65, 62, 122);;
 }
 
 iframe{
@@ -91,7 +91,7 @@ iframe{
     width:10%;
     }
 
-    section {
+    .templebox {
         display: flex;
         flex-direction: row;
 }

@@ -37,6 +37,7 @@ nav {
     max-width: auto;
     background-color: #AB5051;
     font-size: 1.5rem;
+    font-family: 'Zilla Slab', serif;
 }
 
 .navigation { list-style: none; text-align: center; }
@@ -75,6 +76,14 @@ nav {
     padding-bottom: 25px; 
 } 
 
+.calltoAction a{
+    color: white;
+    text-decoration: none;
+}
+
+.calltoAction a:hover {
+    color:  rgb(214, 212, 206);
+}
 .middle {
     background-color: rgb(214, 212, 206);
     width: 80%;
@@ -135,9 +144,11 @@ iframe{
 .reservations{
     margin-left: auto;
     margin-right: auto;
-    font-size: 4rem;
-    font-family: 'Bad Script', cursive;
+    font-size: 4em;
+    font-family: 'Parisienne', cursive;
+    color: rgb(65, 62, 122);
     text-align: center;
+    font-weight: bold;
 }
 
 form label.top {
@@ -214,6 +225,21 @@ form label.top input {
       color: #40405e;
   }
 
+  h6{
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #40405e;
+    margin-top:-20px;
+}
+
+  h5{
+    font-family: 'Parisienne', cursive;
+    font-size: 4em;
+    text-align: center;
+    color: #40405e;
+}
+
   .indoor-pool, .hotel-room {
       width: 100%;
       height: auto;
@@ -288,7 +314,7 @@ form label.top input {
 
    /*--------------------------temples page---------------------*/
 
-   section article {
+   .templebox article {
     width: 80%;
     display: inline-flex;
     flex-direction: column;
@@ -302,12 +328,12 @@ form label.top input {
      align-items: center;
    }
  
-   img{
+   img {
        width: 100%;
        height: auto;
    }
 
-   p{
+   p {
        font-family: 'Zilla Slab', serif;
    }
 
