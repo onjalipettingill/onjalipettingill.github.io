@@ -80,3 +80,18 @@ iframe{
     color: white;
     text-align: left
 }
+
+/*-------------------Temples Page--------------------*/
+
+    article {
+    display: inline-flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    padding: 0px;
+    width:10%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+}

@@ -209,7 +209,7 @@ form label.top input {
 
   h3{
       font-family: 'Parisienne', cursive;
-      font-size: 4em;
+      font-size: 2em;
       text-align: center;
       color: #40405e;
   }
@@ -284,6 +284,31 @@ form label.top input {
         font-size: 2.5em;
         color:  rgb(65, 62, 122);
         text-align: center;
+   }
+
+   /*--------------------------temples page---------------------*/
+
+   section article {
+    width: 80%;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px 10px 50px;
+    color:  rgb(65, 62, 122);
+    background-color: white;
+     border-style: solid;
+     border-width: 20px 2px;
+     border-color:  rgb(175, 167, 167);
+     align-items: center;
+   }
+ 
+   img{
+       width: 100%;
+       height: auto;
+   }
+
+   p{
+       font-family: 'Zilla Slab', serif;
    }
 
   
